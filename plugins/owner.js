@@ -18,8 +18,8 @@ Asena.addCommand({pattern: 'owner', fromMe: false, desc: Lang.WP}, (async (messa
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*creater Ameer*
-*owner number wa.me/919946432377*
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*creater Naveen*
+*owner number wa.me/9397312346*
 *instagram  : https://www.instagram.com/ameer_.su_hail?r=nametag*
 *bot setting video : https://youtu.be/_D4ZYuUSXjs
 *githublink       https://github.com/ameer-kallumthodi/pikachu*
